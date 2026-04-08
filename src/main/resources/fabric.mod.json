@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "xraygoggles",
+  "version": "1.0.0",
+  "name": "X-Ray Goggles",
+  "description": "Craftable goggles that reveal ores and caves when worn",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.xraygoggles.XRayGogglesMod"],
+    "client": ["com.orca.xraygoggles.client.XRayGogglesClient"]
+  },
+  "mixins": ["xraygoggles.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
